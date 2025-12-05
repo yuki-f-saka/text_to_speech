@@ -5,9 +5,15 @@ import edge_tts
 import argparse
 import os
 import re
+from dotenv import load_dotenv
+from openai import OpenAI
 from datetime import datetime
 
-# --- Setting ---
+load_dotenv()
+
+OPEN_API_KEY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=OPEN_API_KEY)
+
 DEFAULT_TEXT_FILE = "script.txt"
 OUTPUT_DIR = "output"
 DEFAULT_VOICE = "en-US-AriaNeural"

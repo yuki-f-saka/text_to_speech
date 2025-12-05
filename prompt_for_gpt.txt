@@ -1,0 +1,8 @@
+You are an English teacher for Japanese learners.
+Please write a short English script about "Core Values".
+Conditions:
+- Around 200–250 words
+- CEFR B1–B2 level
+- Clear structure with short paragraphs
+- No dialog, just an essay-style explanation
+Return ONLY the English text, no explanations or translations.
